@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F53A11C20D80EDE00D1BA2A /* CategorySelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53A11B20D80EDE00D1BA2A /* CategorySelectionDelegate.swift */; };
+		3F53A11E20D848C700D1BA2A /* LeadershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53A11D20D848C700D1BA2A /* LeadershipViewController.swift */; };
 		3F851E8920D401EA00E52AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F851E8820D401EA00E52AF5 /* AppDelegate.swift */; };
-		3F851E8B20D401EA00E52AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F851E8A20D401EA00E52AF5 /* ViewController.swift */; };
 		3F851E8E20D401EA00E52AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F851E8C20D401EA00E52AF5 /* Main.storyboard */; };
 		3F851E9120D401EA00E52AF5 /* MyCCMB_Foundation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F851E8F20D401EA00E52AF5 /* MyCCMB_Foundation.xcdatamodeld */; };
 		3F851E9320D401EB00E52AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F851E9220D401EB00E52AF5 /* Assets.xcassets */; };
 		3F851E9620D401EB00E52AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F851E9420D401EB00E52AF5 /* LaunchScreen.storyboard */; };
+		3F851EA020D4234900E52AF5 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F851E9F20D4234900E52AF5 /* SplitViewController.swift */; };
+		3F851EA220D4282D00E52AF5 /* ChildTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F851EA120D4282D00E52AF5 /* ChildTabelViewController.swift */; };
+		3F851EA420D434F700E52AF5 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F851EA320D434F700E52AF5 /* MasterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F53A11B20D80EDE00D1BA2A /* CategorySelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionDelegate.swift; sourceTree = "<group>"; };
+		3F53A11D20D848C700D1BA2A /* LeadershipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadershipViewController.swift; sourceTree = "<group>"; };
 		3F851E8520D401EA00E52AF5 /* MyCCMB Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyCCMB Foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F851E8820D401EA00E52AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F851E8A20D401EA00E52AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F851E8D20D401EA00E52AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F851E9020D401EA00E52AF5 /* MyCCMB_Foundation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCCMB_Foundation.xcdatamodel; sourceTree = "<group>"; };
 		3F851E9220D401EB00E52AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F851E9520D401EB00E52AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F851E9720D401EB00E52AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F851E9F20D4234900E52AF5 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		3F851EA120D4282D00E52AF5 /* ChildTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTabelViewController.swift; sourceTree = "<group>"; };
+		3F851EA320D434F700E52AF5 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				3F851E8820D401EA00E52AF5 /* AppDelegate.swift */,
-				3F851E8A20D401EA00E52AF5 /* ViewController.swift */,
 				3F851E8C20D401EA00E52AF5 /* Main.storyboard */,
+				3F851EA320D434F700E52AF5 /* MasterTableViewController.swift */,
+				3F851EA120D4282D00E52AF5 /* ChildTabelViewController.swift */,
+				3F851E9F20D4234900E52AF5 /* SplitViewController.swift */,
 				3F851E9220D401EB00E52AF5 /* Assets.xcassets */,
 				3F851E9420D401EB00E52AF5 /* LaunchScreen.storyboard */,
 				3F851E9720D401EB00E52AF5 /* Info.plist */,
 				3F851E8F20D401EA00E52AF5 /* MyCCMB_Foundation.xcdatamodeld */,
+				3F53A11B20D80EDE00D1BA2A /* CategorySelectionDelegate.swift */,
+				3F53A11D20D848C700D1BA2A /* LeadershipViewController.swift */,
 			);
 			path = "MyCCMB Foundation";
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F851E8B20D401EA00E52AF5 /* ViewController.swift in Sources */,
 				3F851E9120D401EA00E52AF5 /* MyCCMB_Foundation.xcdatamodeld in Sources */,
+				3F53A11E20D848C700D1BA2A /* LeadershipViewController.swift in Sources */,
 				3F851E8920D401EA00E52AF5 /* AppDelegate.swift in Sources */,
+				3F851EA220D4282D00E52AF5 /* ChildTabelViewController.swift in Sources */,
+				3F851EA420D434F700E52AF5 /* MasterTableViewController.swift in Sources */,
+				3F53A11C20D80EDE00D1BA2A /* CategorySelectionDelegate.swift in Sources */,
+				3F851EA020D4234900E52AF5 /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +301,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87U5XJJ2UX;
 				INFOPLIST_FILE = "MyCCMB Foundation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87U5XJJ2UX;
 				INFOPLIST_FILE = "MyCCMB Foundation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

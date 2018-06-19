@@ -17,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let splitViewController = (window?.rootViewController as! UITabBarController).viewControllers![1] as! UISplitViewController
+        
+        let masterNavigationController = splitViewController.viewControllers.first as! UINavigationController
+        let masterTableViewController = masterNavigationController.topViewController as! MasterTableViewController
+        let detailNavigationController = splitViewController.viewControllers.last as! UINavigationController
+        let detailTabelViewController = detailNavigationController.topViewController as! ChildTabelViewController
+        masterTableViewController.selectionDelegate = detailTabelViewController
+        
+        Thread.sleep(forTimeInterval: 1.5)
+        
         return true
     }
 
