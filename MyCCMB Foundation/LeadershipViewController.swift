@@ -11,12 +11,31 @@ import UIKit
 class LeadershipViewController: UITableViewController {
 
     @IBOutlet weak var leadersImage: UIImageView!
-
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        
+        let verticalSize = traitCollection.verticalSizeClass
+        let horizontalSize = traitCollection.horizontalSizeClass
+        
+        if verticalSize == .regular && horizontalSize == .regular {
+            leadersImage.frame.size.height = 247
+        } else if verticalSize == .regular && horizontalSize == .compact {
+            leadersImage.frame.size.height = 107
+        } else if verticalSize == .compact && horizontalSize == .compact {
+            leadersImage.frame.size.height = 196
+        } else if verticalSize == .compact && horizontalSize == .regular {
+            leadersImage.frame.size.height = 213
+        }
+        
+        tableView.tableHeaderView = leadersImage //force it to redraw
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: - Table view data source
 
 //    override func numberOfSections(in tableView: UITableView) -> Int {

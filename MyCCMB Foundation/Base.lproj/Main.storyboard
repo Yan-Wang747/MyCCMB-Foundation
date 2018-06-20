@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Sz-Rf-tld">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,26 +14,26 @@
             <objects>
                 <tableViewController id="OR5-0j-7Zz" customClass="ChildTabelViewController" customModule="MyCCMB_Foundation" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="gju-gf-BoU">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FactCell" textLabel="EvM-LX-Nhb" detailTextLabel="Oqx-OH-Cds" style="IBUITableViewCellStyleSubtitle" id="Hbb-TG-nnE">
-                                <rect key="frame" x="0.0" y="55.5" width="1024" height="52"/>
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FactCell" textLabel="EvM-LX-Nhb" detailTextLabel="Oqx-OH-Cds" style="IBUITableViewCellStyleSubtitle" id="Hbb-TG-nnE">
+                                <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hbb-TG-nnE" id="i5M-06-3fW">
-                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="51.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="FACT:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EvM-LX-Nhb">
-                                            <rect key="frame" x="20" y="6" width="47.5" height="20.5"/>
+                                            <rect key="frame" x="20.000000000000004" y="2" width="47.333333333333336" height="20.333333333333332"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Oqx-OH-Cds">
-                                            <rect key="frame" x="20" y="26.5" width="59" height="20.5"/>
+                                            <rect key="frame" x="19.999999999999996" y="22.333333333333336" width="58.666666666666664" height="20.333333333333332"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                             <nil key="textColor"/>
@@ -67,19 +67,19 @@
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="gqP-5b-GzY" customClass="MasterTableViewController" customModule="MyCCMB_Foundation" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uLU-kv-78U">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1101"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CategoryCell" textLabel="6OS-T6-ah1" style="IBUITableViewCellStyleDefault" id="NYW-GD-6wF">
-                                <rect key="frame" x="0.0" y="28" width="375" height="52"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NYW-GD-6wF" id="xLa-kL-Qe1">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="51.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6OS-T6-ah1">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="51.5"/>
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <nil key="textColor"/>
@@ -141,7 +141,7 @@
                 <navigationController id="uRH-zG-cDa" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Leadership" image="leaders" id="vJC-eQ-hWN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="VVA-4e-rKV">
-                        <rect key="frame" x="0.0" y="20" width="1024" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -157,25 +157,25 @@
             <objects>
                 <tableViewController id="5oH-ld-4J0" customClass="LeadershipViewController" customModule="MyCCMB_Foundation" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5Ob-YY-lJb">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Board" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="lXK-aV-Z2W">
-                            <rect key="frame" x="0.0" y="0.0" width="1024" height="240"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <sections>
                             <tableViewSection id="mkh-Cw-aZV">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="Nn8-qK-J71" style="IBUITableViewCellStyleDefault" id="2Pb-lQ-eSk">
-                                        <rect key="frame" x="0.0" y="240" width="1024" height="52"/>
+                                        <rect key="frame" x="0.0" y="247" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Pb-lQ-eSk" id="4KG-91-K8P">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="52"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Leadership" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nn8-qK-J71">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="52"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                     <nil key="textColor"/>
@@ -185,14 +185,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="QWO-Nj-xFx" rowHeight="54" style="IBUITableViewCellStyleDefault" id="vzh-7Y-nMZ">
-                                        <rect key="frame" x="0.0" y="292" width="1024" height="54"/>
+                                        <rect key="frame" x="0.0" y="291" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vzh-7Y-nMZ" id="XBD-Z6-8L5">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="54"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="CancerCare Manitoba Foundation Board" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QWO-Nj-xFx">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="54"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="54"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
@@ -202,14 +202,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="MGM-z8-pCF" style="IBUITableViewCellStyleDefault" id="e1s-jU-Rqv">
-                                        <rect key="frame" x="0.0" y="346" width="1024" height="52"/>
+                                        <rect key="frame" x="0.0" y="345" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e1s-jU-Rqv" id="dTt-JJ-mt4">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="52"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Executive Officers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MGM-z8-pCF">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="52"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
@@ -219,14 +219,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="K2S-t3-wkV" rowHeight="187" style="IBUITableViewCellStyleDefault" id="Rsf-Hg-KNC">
-                                        <rect key="frame" x="0.0" y="398" width="1024" height="187"/>
+                                        <rect key="frame" x="0.0" y="389" width="414" height="187"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rsf-Hg-KNC" id="kO3-su-9AX">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="187"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="187"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K2S-t3-wkV">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="187"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="187"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Doug Harvey, Chair
 Ken Cranston, Vice Chair &amp; Treasurer
@@ -242,14 +242,14 @@ Annitta Stenning, President and CEO</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="bQi-lM-NuP" style="IBUITableViewCellStyleDefault" id="TvH-Ey-48Y">
-                                        <rect key="frame" x="0.0" y="585" width="1024" height="52"/>
+                                        <rect key="frame" x="0.0" y="576" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TvH-Ey-48Y" id="nge-ee-BlV">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="52"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Directors" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bQi-lM-NuP">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="52"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
@@ -259,14 +259,14 @@ Annitta Stenning, President and CEO</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="5XV-CV-9fC" rowHeight="276" style="IBUITableViewCellStyleDefault" id="3w2-N3-ZHj">
-                                        <rect key="frame" x="0.0" y="637" width="1024" height="276"/>
+                                        <rect key="frame" x="0.0" y="620" width="414" height="276"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3w2-N3-ZHj" id="ZWT-fg-WBm">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="276"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="276"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5XV-CV-9fC">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="276"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="276"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Stuart Blake
 Jamie Brown
@@ -288,14 +288,14 @@ Andrew B. Paterson, Director Emeritus</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="g6z-pH-GWy" style="IBUITableViewCellStyleDefault" id="9js-gO-YAd">
-                                        <rect key="frame" x="0.0" y="913" width="1024" height="52"/>
+                                        <rect key="frame" x="0.0" y="896" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9js-gO-YAd" id="jDR-lK-oyh">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="52"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="CCMB Board Representatives" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g6z-pH-GWy">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="52"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="43.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
@@ -305,14 +305,14 @@ Andrew B. Paterson, Director Emeritus</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="vzo-ct-iBq" rowHeight="94" style="IBUITableViewCellStyleDefault" id="3gh-SL-4Xe">
-                                        <rect key="frame" x="0.0" y="965" width="1024" height="94"/>
+                                        <rect key="frame" x="0.0" y="940" width="414" height="94"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3gh-SL-4Xe" id="JlU-4R-B4x">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="94"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="93.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vzo-ct-iBq">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="94"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="93.666666666666671"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Greg Tallon, Chair
 Jeoff Chipman, Vice Chair
@@ -325,14 +325,14 @@ Dr. Sri Navaratnam, President and CEO, CCMB</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="bGd-Yz-FTX" rowHeight="64" style="IBUITableViewCellStyleDefault" id="70R-NT-RXB">
-                                        <rect key="frame" x="0.0" y="1059" width="1024" height="64"/>
+                                        <rect key="frame" x="0.0" y="1034" width="414" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="70R-NT-RXB" id="bA5-ix-qQM">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="64"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="63.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="CancerCare Manitoba Foundation Committees" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bGd-Yz-FTX">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="64"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="63.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
@@ -342,14 +342,14 @@ Dr. Sri Navaratnam, President and CEO, CCMB</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Mx9-mV-UCT" rowHeight="51" style="IBUITableViewCellStyleDefault" id="uDc-iL-V7v">
-                                        <rect key="frame" x="0.0" y="1123" width="1024" height="51"/>
+                                        <rect key="frame" x="0.0" y="1098" width="414" height="51"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uDc-iL-V7v" id="HH4-8S-9Pl">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="51"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Projects Grants and Awards Committee (PGAC)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mx9-mV-UCT">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="51"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="50.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
@@ -359,14 +359,14 @@ Dr. Sri Navaratnam, President and CEO, CCMB</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="3av-p6-dN5" rowHeight="316" style="IBUITableViewCellStyleDefault" id="lSM-gd-AKy">
-                                        <rect key="frame" x="0.0" y="1174" width="1024" height="316"/>
+                                        <rect key="frame" x="0.0" y="1149" width="414" height="316"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lSM-gd-AKy" id="onc-5c-Mrt">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="316"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3av-p6-dN5">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="316"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="315.66666666666669"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Considers grant proposals and makes recommendations to the Board concerning the distribution of donor dollars to support the work of CancerCare Manitoba.
 
@@ -387,14 +387,14 @@ Dr. Marshall Pitz, CCMB</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="24t-Wn-oGF" style="IBUITableViewCellStyleDefault" id="9Ly-4Q-IMY">
-                                        <rect key="frame" x="0.0" y="1490" width="1024" height="52"/>
+                                        <rect key="frame" x="0.0" y="1465" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Ly-4Q-IMY" id="7Is-W0-mHU">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="52"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Marketing &amp; Development Committee" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="24t-Wn-oGF">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="52"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="43.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
@@ -404,14 +404,14 @@ Dr. Marshall Pitz, CCMB</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="P3R-Vr-mFZ" rowHeight="251" style="IBUITableViewCellStyleDefault" id="Bds-Su-3Xm">
-                                        <rect key="frame" x="0.0" y="1542" width="1024" height="251"/>
+                                        <rect key="frame" x="0.0" y="1509" width="414" height="251"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bds-Su-3Xm" id="QLZ-yZ-429">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="251"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="250.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P3R-Vr-mFZ">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="251"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="250.66666666666666"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Reviews the annual marketing plan and makes recommendations to the Board concerning the development of new revenue sources.
 
@@ -429,14 +429,14 @@ Judy Edmond, CCMB</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="T3x-Op-exA" style="IBUITableViewCellStyleDefault" id="6rA-EP-6al">
-                                        <rect key="frame" x="0.0" y="1793" width="1024" height="52"/>
+                                        <rect key="frame" x="0.0" y="1760" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6rA-EP-6al" id="efh-y9-mqM">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="52"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Finance Committee" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T3x-Op-exA">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="52"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="43.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
@@ -446,14 +446,14 @@ Judy Edmond, CCMB</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="7k3-gf-Djl" rowHeight="287" style="IBUITableViewCellStyleDefault" id="nBZ-P0-OUY">
-                                        <rect key="frame" x="0.0" y="1845" width="1024" height="287"/>
+                                        <rect key="frame" x="0.0" y="1804" width="414" height="287"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nBZ-P0-OUY" id="AN3-wj-dds">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="287"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="286.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7k3-gf-Djl">
-                                                    <rect key="frame" x="20" y="0.0" width="984" height="287"/>
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="286.66666666666669"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Reviews the Foundation’s financial position and makes recommendations to the Board concerning the management of capital funds and investments and the annual budget.
 
@@ -485,7 +485,7 @@ John Smith</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rtL-Wn-IMX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2220" y="127.5"/>
+            <point key="canvasLocation" x="2215.1079136690651" y="123.56115107913669"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AaH-LW-JLC">
@@ -493,7 +493,6 @@ John Smith</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZDM-gT-shb" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bQr-YI-Tps">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -511,6 +510,7 @@ John Smith</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Efz-jI-S1u" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RMB-V8-9ds">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
